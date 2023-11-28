@@ -1,10 +1,18 @@
 body {
     color:#2E2F42;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }
 
+/* header */
 
 .header-logo {
   color:#2E2F42 ;  
+ font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16;
 }
 
 .header-logo .accent {
@@ -18,6 +26,8 @@ color: #4D5AE5;
 .header-nav {
     color: #434455;
 }
+
+/* main */
 
 h1 {
     color:  #FFF;
@@ -44,6 +54,7 @@ h1 {
     color: #434455;
 }
 
+/* footer */
 .info {
     color: #F4F4FD;
 }
@@ -52,6 +63,11 @@ h1 {
     color:  #F4F4FD;
 }
 
-.footer-logo.accent {
+.footer-logo .accent {
     color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+    background:  #2E2F42;
 }
