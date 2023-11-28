@@ -1,0 +1,57 @@
+body {
+    color:#2E2F42;
+}
+
+
+.header-logo {
+  color:#2E2F42 ;  
+}
+
+.header-logo .accent {
+color: #4D5AE5;
+}
+
+.header-link {
+    color: #2E2F42; 
+}
+
+.header-nav {
+    color: #434455;
+}
+
+h1 {
+    color:  #FFF;
+}
+
+.main-section {
+    background: #2E2F42;
+}
+
+.button {
+    background: #4D5AE5;
+    color: #FFFFFF;
+}
+
+.bnf-text {
+ color:  #434455;
+}
+
+.team-job {
+    color: #434455;
+}
+
+.person-job {
+    color: #434455;
+}
+
+.info {
+    color: #F4F4FD;
+}
+
+.footer-logo {
+    color:  #F4F4FD;
+}
+
+.footer-logo.accent {
+    color: #4D5AE5;
+}
