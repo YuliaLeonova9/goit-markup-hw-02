@@ -64,11 +64,24 @@ color: #2e2f42;
     color: #404bbf;
 }
 
+.header-link:focus {
+    color: #404bbf;
+}
+
 .header-nav {
     color: #434455;
     text-decoration: none;
     font-size: 16px;
-    line-height: 1,5; 
+    line-height: 1.5; 
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
+
+.contact-link {
+    color: #434455;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
     font-style: normal;
     letter-spacing: 0.02em;
 }
