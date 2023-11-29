@@ -1,5 +1,5 @@
 body {
-     color: #434455;
+    color: #434455;
     background-color:#FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -44,12 +44,12 @@ h2 {
  font-size: 18px;
  line-height: 1.17;
  text-decoration: none;
- letter-spacing: 0.03em ;
- text-transform: uppercase ;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
 }
 
 .header-logo .accent {
- color: #4D5AE5;
+color: #2e2f42;
 }
 
 .header-link {
@@ -57,10 +57,11 @@ h2 {
     font-weight: 500;
     line-height: 1.5 ;
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 .header-link:hover {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .header-nav {
@@ -69,11 +70,19 @@ h2 {
     font-size: 16px;
     line-height: 1,5; 
     font-style: normal;
+    letter-spacing: 0.02em;
 }
 
 .header-nav:hover {
-color: #404BBF ; 
+color: #404BBF; 
 }
+
+
+.header-nav:focus{
+
+    color: #404bbf;
+}
+
 
 /* main */
 
@@ -126,17 +135,21 @@ background:  #404BBF;
 }
 
 .footer-logo {
-    color:  #F4F4FD;
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.16;}
+    
+        color: #4d5ae5;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        text-decoration: none;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
         
 
 
 .footer-logo .accent {
-    color: #4D5AE5;
+    color: #F4F4FD;
     
 }
 
