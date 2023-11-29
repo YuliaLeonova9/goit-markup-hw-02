@@ -86,6 +86,14 @@ color: #2e2f42;
     letter-spacing: 0.02em;
 }
 
+.contact-link:hover {
+    color: #404bbf;
+}
+
+.contact-link:focus{
+    color: #404bbf;
+}
+
 .header-nav:hover {
 color: #404BBF; 
 }
