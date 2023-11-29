@@ -1,5 +1,6 @@
 body {
-    color:#2E2F42;
+     color: #434455;
+    background-color:#FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -37,12 +38,14 @@ h2 {
 /* header */
 
 .header-logo {
-  color:#2E2F42 ;  
+  color:#4d5ae5 ;  
  font-family: 'Raleway', sans-serif;
  font-weight: 700;
  font-size: 18px;
- line-height: 1.16;
+ line-height: 1.17;
  text-decoration: none;
+ letter-spacing: 0.03em ;
+ text-transform: uppercase ;
 }
 
 .header-logo .accent {
