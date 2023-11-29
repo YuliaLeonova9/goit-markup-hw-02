@@ -137,6 +137,7 @@ background:  #404BBF;
 }
 
 .title-img {
+    color: #2E2F42;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -173,7 +174,7 @@ background:  #404BBF;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.1;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
