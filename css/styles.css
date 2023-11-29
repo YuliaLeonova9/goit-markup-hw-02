@@ -11,30 +11,6 @@ ul {
 }
 
 
-h1 {
-    color: #FFF;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-
-}
-
-h3 {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-
-}
-
-h2 {
-    color:  #2E2F42;
-    font-size: 36px;
-    font-weight: 700; 
-    line-height: 1.1;
-        
-}
-
 /* header */
 
 .header-logo {
@@ -107,7 +83,15 @@ color: #404BBF;
 
 /* main */
 
+.main-title {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 
+}
 
 .main-section {
     background: #2E2F42;
@@ -118,33 +102,87 @@ color: #404BBF;
     color: #FFFFFF;
     border: none;
     cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .button:hover {
 background:  #404BBF;
 }
 
+.button:focus {
+    background: #404BBF;
+}
+
+
+.bnf-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
 
 .bnf-text {
  color:  #434455;
  font-size: 16px;
  line-height: 1.5;
-  
+ letter-spacing: 0.02em;
+}
+
+.section-img {
+    background-color: #F4F4FD;
+}
+
+.title-img {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    
+}
+
+.card {
+    background-color: #FFFFFF;
+}
+
+.title-job {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .team-job {
     color: #434455;
     font-size: 16px;
     line-height: 24px;
-        
+    letter-spacing: 0.02em;
 }
+
+.portfolio-title {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.2em;
+    text-transform: capitalize;
+}
+
 
 .person-job {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
-        
+    letter-spacing: 0.02em;
 }
 
 /* footer */
@@ -175,6 +213,6 @@ background:  #404BBF;
     
 }
 
-footer {
+.footer {
     background:  #2E2F42;
 }
